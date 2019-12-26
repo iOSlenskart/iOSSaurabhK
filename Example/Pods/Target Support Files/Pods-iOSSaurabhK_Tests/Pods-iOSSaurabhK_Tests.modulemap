@@ -1,0 +1,6 @@
+framework module Pods_iOSSaurabhK_Tests {
+  umbrella header "Pods-iOSSaurabhK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

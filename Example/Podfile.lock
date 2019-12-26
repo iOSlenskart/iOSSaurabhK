@@ -1,0 +1,16 @@
+PODS:
+  - iOSSaurabhK (0.1.0)
+
+DEPENDENCIES:
+  - iOSSaurabhK (from `../`)
+
+EXTERNAL SOURCES:
+  iOSSaurabhK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  iOSSaurabhK: 10740f24f058dbdda10a095525f8a35bf7df8e1c
+
+PODFILE CHECKSUM: 161da15106e26cd88ccbafac41e6e380337cf49a
+
+COCOAPODS: 1.9.0.beta.2

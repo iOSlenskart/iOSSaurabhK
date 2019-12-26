@@ -1,0 +1,6 @@
+framework module iOSSaurabhK {
+  umbrella header "iOSSaurabhK-umbrella.h"
+
+  export *
+  module * { export * }
+}
