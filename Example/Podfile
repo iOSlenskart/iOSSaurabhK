@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'iOSSaurabhK_Example' do
+  pod 'iOSSaurabhK', :path => '../'
+
+  target 'iOSSaurabhK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
