@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		151C5BFDD773575B3972BE31 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		151C5BFDD773575B3972BE31 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		33F5FE9C0AEB1AEB955B8225 /* Pods_iOSSaurabhK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSSaurabhK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		466516E4F53B4C93CD17F346 /* Pods-iOSSaurabhK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSSaurabhK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-iOSSaurabhK_Tests/Pods-iOSSaurabhK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* iOSSaurabhK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSSaurabhK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,9 +44,9 @@
 		64EA50264328F988D81CC48F /* Pods-iOSSaurabhK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSSaurabhK_Tests.release.xcconfig"; path = "Target Support Files/Pods-iOSSaurabhK_Tests/Pods-iOSSaurabhK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		72F75C68DDCC33D1CBF85C45 /* Pods_iOSSaurabhK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSSaurabhK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FDF72F97D4E505AF1C84CC0 /* Pods-iOSSaurabhK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSSaurabhK_Example.release.xcconfig"; path = "Target Support Files/Pods-iOSSaurabhK_Example/Pods-iOSSaurabhK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		92DFDFC920A1A4449771CE5E /* iOSSaurabhK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = iOSSaurabhK.podspec; path = ../iOSSaurabhK.podspec; sourceTree = "<group>"; };
+		92DFDFC920A1A4449771CE5E /* iOSSaurabhK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = iOSSaurabhK.podspec; path = ../iOSSaurabhK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9B5D49F6E904E29F09078041 /* Pods-iOSSaurabhK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSSaurabhK_Example.debug.xcconfig"; path = "Target Support Files/Pods-iOSSaurabhK_Example/Pods-iOSSaurabhK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A5A6F74E6149847C27F0C788 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A5A6F74E6149847C27F0C788 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				466516E4F53B4C93CD17F346 /* Pods-iOSSaurabhK_Tests.debug.xcconfig */,
 				64EA50264328F988D81CC48F /* Pods-iOSSaurabhK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -171,7 +170,6 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				37572132D099F2837E1FD632 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -227,6 +225,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -262,24 +261,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		37572132D099F2837E1FD632 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iOSSaurabhK_Example/Pods-iOSSaurabhK_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/iOSSaurabhK/iOSSaurabhK.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iOSSaurabhK.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSSaurabhK_Example/Pods-iOSSaurabhK_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		B7029F0BDB960AEAF4DB895C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
